@@ -127,7 +127,7 @@ section{
 }
 
 .block1{
-	background: url(assets/block1-bg.jpg) no-repeat top center;
+	background: url(assets/block1-bgg.jpg) no-repeat top center;
 }
 
 .top{
@@ -476,7 +476,7 @@ h5{
 }
 
 .block5{
-	background: url('assets/block1-bg.jpg');
+	background: url('assets/block1-bg.jpg') no-repeat top center;
 }
 
 .rec {
@@ -557,7 +557,7 @@ h5{
 
 .form{
 	float: right;
-	margin: 178px 35px 0 0 ;
+	margin: 27px 35px 0 0 ;
 	text-align: center;
 	width: 330px;
 	padding: 30px 38px;
@@ -708,13 +708,14 @@ h5{
 		display: none;
 	}
 
-	.block5 > .form {
+	.form {
 		float: none;
 		margin: 40px auto 0;
 		transform: scale(0.95);
 	}
 
 }
+
 @media screen and (max-width: 659px) {
     .wrap{
         width: 320px;
@@ -816,7 +817,7 @@ h5{
 		background: url('assets/block1-bgs.jpg') no-repeat top center;
 	}
 
-	.block5 > .form{
+	 .form{
 		transform: scale(0.8);
 	}
 }
